@@ -12,6 +12,7 @@ node {
       }
     }
   }
+}
 //   withDockerContainer(image: 'node:16-buster-slim') {
 //     stage('Build') {
 //       sh 'npm install'
