@@ -1,11 +1,11 @@
 Node {
   stage('Build') {
-    steps {
+    try {
       sh 'npm install'
     }
   }
   stage('Test') {
-    steps {
+    try {
       sh './jenkins/scripts/test.sh' 
     }
   }
